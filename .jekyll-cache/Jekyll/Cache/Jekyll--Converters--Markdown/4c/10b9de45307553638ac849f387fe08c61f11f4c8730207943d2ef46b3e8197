@@ -1,0 +1,19 @@
+I"G
+<ul>
+  <li><a href="#git">git</a></li>
+  <li><a href="#1安装">1.安装</a></li>
+  <li><a href="#2基础">2.基础</a>
+      - {:.} <a href="#1-查看某个命令的帮助-例如查看commit命令">1) 查看某个命令的帮助 例如查看commit命令</a>
+      - {:.} <a href="#2-修改git的配置文件">2) 修改git的配置文件</a>
+      - {:.} <a href="#3-仓库">3) 仓库</a>
+      - {:.} <a href="#4git的工作流">4）git的工作流</a>
+      - {:.} <a href="#5-git的文件状态">5) git的文件状态</a>
+    <ul>
+      <li><a href="#quick-setup--if-youve-done-this-kind-of-thing-before"><strong>Quick setup</strong> — if you’ve done this kind of thing before</a></li>
+      <li><a href="#or-create-a-new-repository-on-the-command-line">…or create a new repository on the command line</a></li>
+      <li><a href="#or-push-an-existing-repository-from-the-command-line">…or push an existing repository from the command line</a></li>
+      <li><a href="#or-import-code-from-another-repository">…or import code from another repository</a></li>
+    </ul>
+  </li>
+</ul>
+:ET

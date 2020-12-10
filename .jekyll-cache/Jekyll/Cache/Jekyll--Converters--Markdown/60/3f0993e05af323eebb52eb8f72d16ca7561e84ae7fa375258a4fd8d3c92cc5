@@ -1,4 +1,4 @@
-I"W/<h2 id="ssh概述与应用并配置到github上">ssh概述与应用并配置到github上</h2>
+I"�.<h2 id="ssh概述与应用并配置到github上">ssh概述与应用并配置到github上</h2>
 
 <h2 id="一基本概念">一、基本概念</h2>
 
@@ -82,7 +82,7 @@
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>openssh-server
 </code></pre></div></div>
 
-<p><img src="/home/zeroac/.config/Typora/typora-user-images/image-20201203225307325.png" alt="image-20201203225307325" /></p>
+<p><img src="../images/myMD/20-12-05-01.png" alt="image-20201203225307325" /></p>
 
 <p>出现报错 根据提示运行以下即可</p>
 
@@ -168,7 +168,7 @@
 
 <p>本机上使用时 不用设置密钥的密码 一路回车即可</p>
 
-<p><img src="/home/zeroac/.config/Typora/typora-user-images/image-20201205143034739.png" alt="image-20201205143034739" /></p>
+<p><img src="../images/myMD/2020-12-05-02.png" alt="image-20201205143034739" /></p>
 
 <p>这段话告诉了我们，生成的公钥放在了 <code class="language-plaintext highlighter-rouge">~/.ssh/id_rsa.pub</code>，私钥放在了 <code class="language-plaintext highlighter-rouge">~/.ssh/id_rsa</code></p>
 
@@ -186,7 +186,7 @@
 
 <p>打开<a href="https://github.com/">github</a>  注册账号后登录 点击右上角 选择setting 然后如下图所示</p>
 
-<p><img src="/home/zeroac/.config/Typora/typora-user-images/image-20201205150034077.png" alt="image-20201205150034077" /></p>
+<p><img src="../images/myMD/2020-12-05-03.png" alt="image-20201205150034077" /></p>
 
 <p>选择左侧栏的SSH 在右边的SSH keys 点击添加SSH key 将之前生成的公钥粘贴进去即可</p>
 
@@ -197,6 +197,6 @@
 
 <p>然后如果你看到 <code class="language-plaintext highlighter-rouge">Permission denied (publickey).</code> 就说明你失败了，请删除所有密钥 重来。如果你看到 <code class="language-plaintext highlighter-rouge">Hi xxx! You've successfully authenticated, but GitHub does not provide shell access.</code> 那么恭喜你，就说明你成功了！</p>
 
-<p><img src="/home/zeroac/.config/Typora/typora-user-images/image-20201205150719434.png" alt="image-20201205150719434" /></p>
+<p><img src="../images/myMD/2020-12-05-03.png" alt="image-20201205150719434" /></p>
 
 :ET
